@@ -1,0 +1,183 @@
+/* You can add global styles to this file, and also import other style files */
+.left{
+    /* background-image: url("app/assets/17.jpg"); */
+    background-color: rgb(241, 243, 220);
+    /* opacity:0.8; */
+    width:20%;
+    float:left;
+    color:rgb(90, 110, 90);
+    margin-right:10px;
+    /* font-size:30px; */
+  }
+  
+  .right{
+    text-align:left;
+    /* background-image: url('app/assets/17.jpg'); */
+    background-color: rgb(235, 236, 222);
+    opacity:0.8;
+    float:left;
+    width:77%;
+    line-height:40px;
+    
+  }
+  
+  .name{
+    background-image: url('app/assets/16.jpg');
+    height:130px;
+    text-align:center;
+     padding-top:60px; 
+    color:rgb(90, 110, 90);
+    /* line-height:3.5; */
+    font-size:50px
+  }
+  
+  .title{
+    color:rgb(90, 110, 90); 
+    font-size:24px;
+    font-weight: 600;
+    
+  }
+  #text{
+    padding-left:20px;
+    /* text-align:center; */
+    font-size:18px;
+  }
+  
+  .navbar{
+    background-color: rgb(154, 199, 154);
+  
+    font-size:16px;
+    color:black;
+  
+  }
+  
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size:20px;
+    overflow: hidden;
+    background-color: rgb(154, 172, 147);
+}
+
+li {
+    float: left;
+    border: 2px solid rgb(122, 143, 128);
+}
+
+li a {
+    display: block;
+    color: rgb(52, 59, 55);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(96, 121, 104);
+}
+
+.active {
+    background-color: rgb(50, 85, 50);
+}
+
+.work{
+  outline: rgb(50, 85, 50) dotted thick;
+  margin: 10px 10px 20px 10px;
+}
+
+.pic{
+  float:left;
+  padding:10px 10px 10px 10px;
+  vertical-align: middle;
+  
+}
+
+.work_title{
+  font-size:16px;
+  font-weight: 600;
+}
+
+.bmo_img{
+  background-image: url('app/assets/bmo.jpg');
+  height:200px;
+  background-repeat: no-repeat;
+  background-position:center;
+  width:200px;
+  background-size:200px 200px;
+}
+
+.brookfield_img{
+  background-image: url('app/assets/Brookfield.png');
+  height:200px;
+  background-repeat: no-repeat;
+  background-position:center;
+  width:200px;
+  background-size:200px 150px;
+}
+
+.myEffect_img{
+  background-image: url('app/assets/MyEffect.png');
+  height:100px;
+  background-repeat: no-repeat;
+  background-position:center;
+  width:200px;
+  background-size:200px 80px;
+}
+
+.UW_img{
+  background-image: url('app/assets/uw.png');
+  height:80px;
+  background-repeat: no-repeat;
+  background-position:center;
+  width:200px;
+  background-size:200px 80px;
+}
+
+
+
+
+.expertise {
+  outline:none;
+	-moz-box-shadow:inset 0px 1px 0px 0px rgb(154, 172, 147);
+	-webkit-box-shadow:inset 0px 1px 0px 0px rgb(154, 172, 147);
+	box-shadow:inset 0px 1px 0px 0px rgb(154, 172, 147)1;
+	background:-moz-linear-gradient( center top, rgb(154, 172, 147) 5%, rgb(154, 172, 147) 100% );
+	background-color:rgb(154, 172, 147);
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	text-indent:0;
+	border:1px solid rgb(154, 172, 147);
+	display:inline-block;
+	color:#ffffff;
+	font-family:Comic Sans MS;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+  height:40px;
+  margin-bottom: 3px;
+	line-height:40px;
+	width:131px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px rgb(154, 172, 147);
+}
+.expertise:hover {
+	background:-moz-linear-gradient( center top, #fb9e25 5%, #ffc477 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477');
+	background-color:rgb(96, 121, 104);
+}.expertise:active {
+	position:relative;
+	top:1px;
+}

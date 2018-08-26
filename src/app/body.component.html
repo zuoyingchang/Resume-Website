@@ -1,0 +1,55 @@
+<html>
+    
+    <div class ="left" id="text"> 
+        
+        <div class="title">Contact<br></div>
+        <i class="fas fa-2x fa-phone"></i>
+            5197818326<br/>
+            <i class="fas fa-2x fa-envelope"></i>
+            <a href="mailto:y22zuo@edu.uwaterloo.ca">
+            y22zuo@edu.uwaterloo.ca
+            </a>
+            <br>
+            <i class="fab fa-2x fa-linkedin-in"></i>
+            <a href=" https://www.linkedin.com/in/yingchang-zuo-100b57128/">
+               linkedin
+                </a>
+                <br>
+                <i class="fab fa-2x fa-github"></i>
+                <a href="https://github.com/zuoyingchang">
+                  
+                   github
+                    </a>
+      <hr>          
+        <div class="title">Education<br></div> 
+        Computer Engineering 2B <br> 
+            BACHELORS<br/>
+            <a href="https://uwaterloo.ca/electrical-computer-engineering/">
+            University of Waterloo<br/></a>
+            2016-current<br/>
+            <hr>
+        <div class="title">Expertise<br></div>  
+        <button class="expertise" (click)="showLanguage()">Languages</button><br>
+        <div *ngIf = "showLanguages">•Javascript<br> •SQL <br>•Python <br>•Java <br>•C++ <br>•Swift<br></div> 
+        <button class="expertise" (click)="showFramework()">Frameworks</button> <br>
+        <div  *ngIf = "showFrameworks">•AngularJS <br>•Angular2 <br>•JQuery<br> •Knockout.js<br> •Node.js <br>•Sequelize.js<br> •Express.js<br> •MySQL<br> •PL/SQL<br> •MongoDB<br></div>
+        <button class="expertise" (click)="showOther()">Others</button> <br>
+        <div  *ngIf = "showOthers">•ETL process <br>•Database Design (ER-Models)<br> •Data visulization <br>•Data models( linear-regression) <br>•self adaptive algorithms<br> •MVC pattern<br></div>
+            <hr>
+        <!-- <div class="title">Awards<br></div>  
+            <hr> -->
+        <div class="title">Resume<br></div>
+            <hr>  
+        
+    </div>
+    
+    
+    
+    
+    <div class="right">
+        <ul>
+            <li><a routerLink="/work" >Working Experience</a></li>
+            <li><a routerLink="/project" >Side Projects</a></li>
+          </ul>
+    </div>
+    </html>

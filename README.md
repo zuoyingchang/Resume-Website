@@ -1,27 +1,21 @@
 # AngularResume
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.2.
+This project used MEAN Stack technologies including Express.js, Angular2 along with HTML5, CSS3, JavaScript, jQuery and Bootstrap<br>
+•	Designed and developed front-end features using Data-binding, Router and Modules in Angular2<br>
+•	Created backend features such as posting responds of this website from viewer to database tables <br>
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Preview
+<img src="https://github.com/zuoyingchang/Resume-Website/blob/6082acb3ead3191b9905705fd5371bc3776c7dc6/README_assets/Screen%20Shot%202018-08-26%20at%201.08.01%20PM.png" width="900" height="500" alt="error"/>
 
-## Code scaffolding
+<img src="https://github.com/zuoyingchang/Resume-Website/blob/6082acb3ead3191b9905705fd5371bc3776c7dc6/README_assets/Screen%20Shot%202018-08-26%20at%201.07.52%20PM.png" width="700" height="400" alt="error" div align=right/>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Features
+If click on buttons on the left, details will toggle below. <br>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+For example, originally, the left component show in the picture below.<br>
+<img src="https://github.com/zuoyingchang/Resume-Website/blob/6082acb3ead3191b9905705fd5371bc3776c7dc6/README_assets/Screen%20Shot%202018-08-26%20at%201.08.41%20PM.png" width="200" height="170" alt="error"/>
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+If click on the button, <br>
+<img src="https://github.com/zuoyingchang/Resume-Website/blob/6082acb3ead3191b9905705fd5371bc3776c7dc6/README_assets/Screen%20Shot%202018-08-26%20at%201.08.35%20PM.png" width="200" height="400" alt="error"/>
